@@ -1,16 +1,16 @@
 module.exports = {
   name: "mul",
   aliases: [],
-  description: "Add 2 numbers!",
+  description: "Multiply 2 numbers!",
   cooldown: 5,
   guildOnly: true,
   args: true,
   usage: false,
   // eslint-disable-next-line no-unused-vars
   execute(msg, args) {
-    // const now = Date.now();
-    // const duration = (now - msg.createdTimestamp) / 1000;
-    // msg.reply(`Pong! Time needed: ${duration.toFixed(3)}s`);
+    if (!a || !b) {
+      return msg.reply("You need to provide two arguments!");
+    }
     var a = parseInt(args[0]);
     var b = parseInt(args[1]);
 

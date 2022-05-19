@@ -8,4 +8,5 @@ module.exports = {
   Greetings: require("./greetings"),
   Guess: require("./guess"),
   Quote: require("./quote"),
+  GetMessages: require("./get-message"),
 };
